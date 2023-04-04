@@ -172,4 +172,3 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-//this is main activity
