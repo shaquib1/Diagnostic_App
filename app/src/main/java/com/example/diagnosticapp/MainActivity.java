@@ -172,5 +172,5 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-//add appsettingactivity.
+
 
