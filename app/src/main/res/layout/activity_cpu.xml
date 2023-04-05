@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddActivity">
+    tools:context=".CpuActivity">
 
     <TextView
-        android:id="@+id/textView16"
-        android:layout_width="383dp"
-        android:layout_height="118dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="293dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="367dp"
-        android:text=" We  come here by clicking on add option on menu bar"
+        android:id="@+id/textView26"
+        android:layout_width="305dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="414dp"
+        android:text="Cpu Activity"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

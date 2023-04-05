@@ -6,4 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".SoundActivity">
 
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="235dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="359dp"
+        android:text="Sound Activity"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

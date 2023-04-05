@@ -10,5 +10,9 @@ public class SettingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
+
+    // to change action bar of activity
+        getSupportActionBar().setTitle("Settings");
+
     }
 }

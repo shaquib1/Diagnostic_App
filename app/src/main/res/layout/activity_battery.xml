@@ -8,9 +8,15 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="341dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginBottom="300dp"
         android:text="  Battery Information"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="367dp" />
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

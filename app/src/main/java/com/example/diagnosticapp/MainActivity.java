@@ -38,12 +38,12 @@ public class MainActivity extends AppCompatActivity {
         Camerabutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
+                Intent intent = new Intent(MainActivity.this,CameraActivity.class);
                 startActivity(intent);
             }
         });
 
-        ImageView mainButton2=(ImageView) findViewById(R.id.app_setting);
+        ImageView mainButton2=(ImageView) findViewById(R.id.setting);
         mainButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         mainButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
+                Intent intent = new Intent(MainActivity.this,Mobile_infoActivity.class);
                 startActivity(intent);
             }
         });
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         mainButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
+                Intent intent = new Intent(MainActivity.this,WifiActivity.class);
                 startActivity(intent);
             }
         });
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         mainButton5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
+                Intent intent = new Intent(MainActivity.this,SignalActivity.class);
                 startActivity(intent);
             }
         });
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         mainButton6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
+                Intent intent = new Intent(MainActivity.this,BatteryActivity.class);
                 startActivity(intent);
             }
         });
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         mainButton7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
+                Intent intent = new Intent(MainActivity.this,FilemanagerActivity.class);
                 startActivity(intent);
             }
         });
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         mainButton8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
+                Intent intent = new Intent(MainActivity.this,SoundActivity.class);
                 startActivity(intent);
             }
         });
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         mainButton9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
+                Intent intent = new Intent(MainActivity.this,SensorActivity.class);
                 startActivity(intent);
             }
         });
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
         mainButton10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
+                Intent intent = new Intent(MainActivity.this,NotificationActivity.class);
                 startActivity(intent);
             }
         });
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
         mainButton11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
+                Intent intent = new Intent(MainActivity.this,CpuActivity.class);
                 startActivity(intent);
             }
         });

@@ -175,7 +175,7 @@
         app:srcCompat="@drawable/ic_camera" />
 
     <ImageView
-        android:id="@+id/app_setting"
+        android:id="@+id/setting"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
