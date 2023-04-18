@@ -29,127 +29,126 @@ public class MainActivity extends AppCompatActivity {
 
         // declear 12 button to go another activiy by click on imageView usnig internt and onclick()
 
-        ImageView mainButton=(ImageView) findViewById(R.id.security);
+        ImageView mainButton = (ImageView) findViewById(R.id.security);
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SecurityActivity.class);
+                Intent intent = new Intent(MainActivity.this, SecurityActivity.class);
                 startActivity(intent);
             }
         });
 
-        ImageView Camerabutton=(ImageView) findViewById(R.id.camera);
+        ImageView Camerabutton = (ImageView) findViewById(R.id.camera);
         Camerabutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,CameraActivity.class);
+                Intent intent = new Intent(MainActivity.this, CameraActivity.class);
                 startActivity(intent);
             }
         });
 
-        ImageView mainButton2=(ImageView) findViewById(R.id.setting);
+        ImageView mainButton2 = (ImageView) findViewById(R.id.setting);
         mainButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
+                Intent intent = new Intent(MainActivity.this, SettingActivity.class);
                 startActivity(intent);
             }
         });
 
-        ImageView mainButton3=(ImageView) findViewById(R.id.mobile_info);
+        ImageView mainButton3 = (ImageView) findViewById(R.id.mobile_info);
         mainButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Mobile_infoActivity.class);
+                Intent intent = new Intent(MainActivity.this, Mobile_infoActivity.class);
                 startActivity(intent);
             }
         });
 
-        ImageView mainButton4=(ImageView) findViewById(R.id.wifi);
+        ImageView mainButton4 = (ImageView) findViewById(R.id.wifi);
         mainButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,WifiActivity.class);
+                Intent intent = new Intent(MainActivity.this, WifiActivity.class);
                 startActivity(intent);
             }
         });
 
-        ImageView mainButton5=(ImageView) findViewById(R.id.signal);
+        ImageView mainButton5 = (ImageView) findViewById(R.id.signal);
         mainButton5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SignalActivity.class);
+                Intent intent = new Intent(MainActivity.this, SignalActivity.class);
                 startActivity(intent);
             }
         });
 
-        ImageView mainButton6=(ImageView) findViewById(R.id.battery);
+        ImageView mainButton6 = (ImageView) findViewById(R.id.battery);
         mainButton6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,BatteryActivity.class);
+                Intent intent = new Intent(MainActivity.this, BatteryActivity.class);
                 startActivity(intent);
             }
         });
 
-        ImageView mainButton7=(ImageView) findViewById(R.id.file_manager);
+        ImageView mainButton7 = (ImageView) findViewById(R.id.file_manager);
         mainButton7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,FilemanagerActivity.class);
+                Intent intent = new Intent(MainActivity.this, FilemanagerActivity.class);
                 startActivity(intent);
             }
         });
 
-        ImageView mainButton8=(ImageView) findViewById(R.id.sound);
+        ImageView mainButton8 = (ImageView) findViewById(R.id.sound);
         mainButton8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SoundActivity.class);
+                Intent intent = new Intent(MainActivity.this, SoundActivity.class);
                 startActivity(intent);
             }
         });
-        ImageView mainButton9=(ImageView) findViewById(R.id.sensor);
+        ImageView mainButton9 = (ImageView) findViewById(R.id.sensor);
         mainButton9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SensorActivity.class);
+                Intent intent = new Intent(MainActivity.this, SensorActivity.class);
                 startActivity(intent);
             }
         });
-        ImageView mainButton10=(ImageView) findViewById(R.id.notification);
+        ImageView mainButton10 = (ImageView) findViewById(R.id.notification);
         mainButton10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,NotificationActivity.class);
+                Intent intent = new Intent(MainActivity.this, NotificationActivity.class);
                 startActivity(intent);
             }
         });
-        ImageView mainButton11=(ImageView) findViewById(R.id.cpu);
+        ImageView mainButton11 = (ImageView) findViewById(R.id.cpu);
         mainButton11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,CpuActivity.class);
+                Intent intent = new Intent(MainActivity.this, CpuActivity.class);
                 startActivity(intent);
             }
         });
 
 
         // to open camera using try catch block
-        Camerabutton =(ImageView) findViewById(R.id.camera);
+        Camerabutton = (ImageView) findViewById(R.id.camera);
         Camerabutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 try {
-                    Intent intent=new Intent();
+                    Intent intent = new Intent();
                     intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
                     startActivity(intent);
-                }catch (Exception e){
-                   e.printStackTrace();
+                } catch (Exception e) {
+                    e.printStackTrace();
                 }
             }
         });
-
 
 
     }
@@ -158,20 +157,24 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-    getMenuInflater().inflate(R.menu.home_menu,menu);
+        getMenuInflater().inflate(R.menu.home_menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-      switch (item.getItemId()){
-          case R.id.setting:
-          startActivity(new Intent(MainActivity.this,AddActivity.class));
-           break;
-     // case R.id.list;
-     // case R.id.exist;
+        switch (item.getItemId()) {
+            case R.id.setting:
+                startActivity(new Intent(MainActivity.this, AddActivity.class));
+                break;
+            // case R.id.list;
+            case R.id.aboutApp:
+                startActivity(new Intent(MainActivity.this, AboutAppActivity.class));
+                break;
 
-  }
+            // case R.id.exist;
+
+        }
         return super.onOptionsItemSelected(item);
     }
 }
