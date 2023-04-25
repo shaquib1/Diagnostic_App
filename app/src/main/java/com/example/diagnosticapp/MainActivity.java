@@ -10,12 +10,7 @@ import android.provider.MediaStore;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.Toast;
-
-import java.sql.RowId;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -92,11 +87,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageView mainButton7 = (ImageView) findViewById(R.id.file_manager);
+        ImageView mainButton7 = (ImageView) findViewById(R.id.flashlight);
         mainButton7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, FilemanagerActivity.class);
+                Intent intent = new Intent(MainActivity.this, FlashLightActivity.class);
                 startActivity(intent);
             }
         });

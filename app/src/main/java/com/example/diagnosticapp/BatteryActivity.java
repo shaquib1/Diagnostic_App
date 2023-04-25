@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+
+
+
 public class BatteryActivity extends AppCompatActivity {
 
     @Override
@@ -11,7 +14,7 @@ public class BatteryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_battery);
 
-
+// to change action bar of activity
         getSupportActionBar().setTitle("Battery Information");
     }
 }

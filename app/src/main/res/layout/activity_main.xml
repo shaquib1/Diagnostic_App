@@ -83,10 +83,10 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="File Manager"
+        android:text="Flash Light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintHorizontal_bias="0.174"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.667" />
@@ -141,15 +141,15 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="52dp"
+        android:layout_height="25dp"
         android:text="  Cpu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.883" />
+        app:layout_constraintVertical_bias="0.89" />
 
     <ImageView
         android:id="@+id/security"
@@ -205,7 +205,7 @@
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintHorizontal_bias="0.177"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.365"
@@ -236,18 +236,6 @@
         app:srcCompat="@drawable/battery" />
 
     <ImageView
-        android:id="@+id/file_manager"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612"
-        app:srcCompat="@drawable/file_manager" />
-
-    <ImageView
         android:id="@+id/sound"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -256,7 +244,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.602"
+        app:layout_constraintVertical_bias="0.612"
         app:srcCompat="@drawable/sound" />
 
     <ImageView
@@ -285,8 +273,8 @@
 
     <ImageView
         android:id="@+id/cpu"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="55dp"
+        android:layout_height="44dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -294,5 +282,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.845"
         app:srcCompat="@drawable/cpu" />
+
+    <ImageView
+        android:id="@+id/flashlight"
+        android:layout_width="59dp"
+        android:layout_height="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611"
+        app:srcCompat="@drawable/ic_flashlight" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
