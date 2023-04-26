@@ -29,7 +29,7 @@
         android:id="@+id/imageView2"
         android:layout_width="132dp"
         android:layout_height="123dp"
-        android:layout_marginLeft="140dp"
+        android:layout_marginLeft="141dp"
         android:layout_marginTop="150dp"
         app:srcCompat="@drawable/ic_flashlight" />
 
