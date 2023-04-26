@@ -162,13 +162,13 @@
 
     <TextView
         android:id="@+id/textLevel"
-        android:layout_width="122dp"
-        android:layout_height="145dp"
+        android:layout_width="176dp"
+        android:layout_height="150dp"
         android:text="56%"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintHorizontal_bias="0.587"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.225" />
