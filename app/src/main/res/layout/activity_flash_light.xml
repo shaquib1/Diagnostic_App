@@ -11,7 +11,7 @@
         android:id="@+id/on_button"
         android:layout_width="141dp"
         android:layout_height="65dp"
-        android:layout_marginLeft="150dp"
+        android:layout_marginLeft="140dp"
         android:layout_marginTop="300dp"
         android:text="Turn On"
         />
@@ -21,7 +21,7 @@
         android:layout_width="143dp"
         android:layout_height="66dp"
         android:layout_below="@id/on_button"
-        android:layout_marginLeft="150dp"
+        android:layout_marginLeft="140dp"
         android:layout_marginTop="50dp"
         android:text="Turn Off" />
 
@@ -29,7 +29,7 @@
         android:id="@+id/imageView2"
         android:layout_width="132dp"
         android:layout_height="123dp"
-        android:layout_marginLeft="150dp"
+        android:layout_marginLeft="140dp"
         android:layout_marginTop="150dp"
         app:srcCompat="@drawable/ic_flashlight" />
 
