@@ -1,23 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_phone_info"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Mobile_infoActivity">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/phone_number_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="143dp"
-        android:layout_marginTop="378dp"
-        android:layout_marginEnd="143dp"
-        android:layout_marginBottom="334dp"
-        android:text="  Mobile information"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="Phone Number: "
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"/>
+
+    <TextView
+        android:id="@+id/phone_number_value_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/phone_number_textview"
+        android:layout_alignBottom="@+id/phone_number_textview"
+        android:layout_toRightOf="@+id/phone_number_textview"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/imei_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMEI Number: "
+        android:textSize="18sp"/>
+
+</RelativeLayout>
