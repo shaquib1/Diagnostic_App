@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.diagnosticapp">
 
-
     <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
     <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
 
@@ -18,20 +17,35 @@
         android:theme="@style/Theme.DiagnosticApp"
         tools:targetApi="31">
         <activity
+            android:name=".AppContactsActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".AppRemovesAddsActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".AppShareActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".BluetoothActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".FlashLightActivity"
-            android:exported="false" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".AboutAppActivity"
-            android:exported="false" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".CpuActivity"
             android:exported="true"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".AppSettingActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AddActivity"
             android:exported="true"
             android:parentActivityName=".MainActivity" />
         <activity
@@ -68,10 +82,6 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SecurityActivity"
-            android:exported="true"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".SettingActivity"
             android:exported="true"
             android:parentActivityName=".MainActivity" />
         <activity

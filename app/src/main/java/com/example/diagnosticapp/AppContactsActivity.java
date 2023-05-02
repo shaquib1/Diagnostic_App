@@ -4,15 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SettingActivity extends AppCompatActivity {
+public class AppContactsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_setting);
+        setContentView(R.layout.activity_app_contacts);
 
-    // to change action bar of activity
-        getSupportActionBar().setTitle("Settings");
-
+        // to change action bar of activity
+        getSupportActionBar().setTitle("Contacts");
     }
 }

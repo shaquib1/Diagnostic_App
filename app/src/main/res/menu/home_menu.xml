@@ -11,7 +11,6 @@
         app:actionViewClass="androidx.appcompat.widget.SearchView"
         />
 
-
     <item android:title="Settings"
         android:id="@+id/setting"
         />
@@ -21,15 +20,19 @@
         />
 
     <item android:title="Remove adds"
-        android:id="@+id/list"
+        android:id="@+id/removeAdds"
+        />
+
+    <item android:title="Dark Mode"
+        android:id="@+id/darkMode"
         />
 
     <item
-        android:title="Contact"
-        android:id="@+id/contact"
+        android:title="Contacts"
+        android:id="@+id/contacts"
         />
     <item android:title="About App"
-        android:id="@+id/exist"
+        android:id="@+id/aboutApp"
         />
 
 

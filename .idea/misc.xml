@@ -6,13 +6,18 @@
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-anydpi/ic_camera.xml" value="0.2435" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-anydpi/ic_image.xml" value="0.2435" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-anydpi/ic_network.xml" value="0.2435" />
+        <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-anydpi/ic_notification.xml" value="0.1535" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-anydpi/ic_search.xml" value="0.2435" />
+        <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-anydpi/ic_security.xml" value="0.1535" />
+        <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-anydpi/ic_sensor.xml" value="0.1535" />
+        <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-anydpi/ic_wifi.xml" value="0.1535" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2435" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2435" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_about_app.xml" value="0.25" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_add.xml" value="0.25" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_app_setting.xml" value="0.25" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_battery.xml" value="0.25" />
+        <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_bluetooth.xml" value="0.25" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_camera.xml" value="0.1609375" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_cpu.xml" value="0.25" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_file_manager.xml" value="0.25" />

@@ -42,11 +42,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageView mainButton2 = (ImageView) findViewById(R.id.setting);
+        ImageView mainButton2 = (ImageView) findViewById(R.id.bluetooth);
         mainButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SettingActivity.class);
+                Intent intent = new Intent(MainActivity.this, BluetoothActivity.class);
                 startActivity(intent);
             }
         });
@@ -159,15 +159,33 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
+            //open AppSettingActivity
             case R.id.setting:
-                startActivity(new Intent(MainActivity.this, AddActivity.class));
+                startActivity(new Intent(MainActivity.this, AppSettingActivity.class));
                 break;
-            // case R.id.list;
+
+                //open AppShareActiviy
+            case R.id.share:
+                startActivity(new Intent(MainActivity.this, AppShareActivity.class));
+                break;
+
+                //open AppRemovesActiviy
+            case R.id.removeAdds:
+                startActivity(new Intent(MainActivity.this,AppRemovesAddsActivity.class));
+                break;
+
+                //open AppContactsActiviy
+            case R.id.contacts:
+                startActivity(new Intent(MainActivity.this, AppContactsActivity.class));
+                break;
+
+            // open AboutAppActiviy
             case R.id.aboutApp:
                 startActivity(new Intent(MainActivity.this, AboutAppActivity.class));
                 break;
 
-            // case R.id.exist;
+
+
 
         }
         return super.onOptionsItemSelected(item);
