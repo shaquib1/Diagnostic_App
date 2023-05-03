@@ -1,35 +1,94 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_phone_info"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Mobile_infoActivity">
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    >
 
     <TextView
-        android:id="@+id/phone_number_textview"
+        android:id="@+id/tv_device_name"
+        android:text="Device Name: "
+        android:textSize="17sp"
+        android:layout_marginTop="200dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Phone Number: "
-        android:textSize="18sp"
-        android:layout_marginTop="24dp"
-        android:layout_marginLeft="24dp"/>
+        android:layout_height="wrap_content"/>
 
     <TextView
-        android:id="@+id/phone_number_value_textview"
+        android:id="@+id/tv_device_model"
+        android:text="Device Model: "
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="18sp"
-        android:layout_alignBaseline="@+id/phone_number_textview"
-        android:layout_alignBottom="@+id/phone_number_textview"
-        android:layout_toRightOf="@+id/phone_number_textview"
-        android:layout_marginLeft="8dp"/>
+        />
 
     <TextView
-        android:id="@+id/imei_textview"
+        android:id="@+id/tv_android_version"
+        android:text="Android Version: "
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="IMEI Number: "
-        android:textSize="18sp"/>
+        />
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/tv_screen_size"
+        android:text="Screen Size: "
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_screen_resolution"
+        android:text="Screen Resolution: "
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_battery_level"
+        android:text="Battery Level: "
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_cpu_info"
+        android:text="CPU Info: "
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_ram_info"
+        android:text="RAM Info: "
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_storage_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Storage Info: "
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="50dp"
+        android:text="CHECK DEVICE INFORMATION"
+        android:textColor="@android:color/black" />
+
+
+</LinearLayout>
