@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
                 //open AppRemovesActiviy
-            case R.id.removeAdds:
+            case R.id.removeAds:
                 startActivity(new Intent(MainActivity.this,AppRemovesAddsActivity.class));
                 break;
 

@@ -19,8 +19,8 @@
      android:id="@+id/share"
         />
 
-    <item android:title="Remove adds"
-        android:id="@+id/removeAdds"
+    <item android:title="Remove ads"
+        android:id="@+id/removeAds"
         />
 
     <item android:title="Dark Mode"

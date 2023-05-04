@@ -67,7 +67,7 @@ public class BluetoothActivity extends AppCompatActivity {
                @Override
                public void onClick(View v) {
                   if (bluetoothAdapter.isEnabled()){
-                      showToast("Turning on Bluetooth..");
+                      showToast("Turning on Bluetooth");
                       Intent intent=new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
                       startActivityForResult(intent,REQUEST_ENABLE_BT);
                   }else {
