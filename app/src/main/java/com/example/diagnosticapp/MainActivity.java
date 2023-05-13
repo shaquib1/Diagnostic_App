@@ -164,17 +164,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, AppSettingActivity.class));
                 break;
 
-                //open AppShareActiviy
+            //open AppShareActiviy
             case R.id.share:
                 startActivity(new Intent(MainActivity.this, AppShareActivity.class));
                 break;
 
-                //open AppRemovesActiviy
+            //open AppRemovesActiviy
             case R.id.removeAds:
-                startActivity(new Intent(MainActivity.this,AppRemovesAddsActivity.class));
+                startActivity(new Intent(MainActivity.this, AppRemovesAddsActivity.class));
                 break;
 
-                //open AppContactsActiviy
+            //open AppContactsActiviy
             case R.id.contacts:
                 startActivity(new Intent(MainActivity.this, AppContactsActivity.class));
                 break;
@@ -183,8 +183,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.aboutApp:
                 startActivity(new Intent(MainActivity.this, AboutAppActivity.class));
                 break;
-
-
 
 
         }

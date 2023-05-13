@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".SensorActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/sensorTextView"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp"
-        android:text="Available Sensors:\n"
-        android:textSize="16sp"
-        android:textStyle="bold" />
+        tools:context=".SensorActivity">
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/sensorTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="Available Sensors:\n"
+            android:layout_marginTop="5dp"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>
