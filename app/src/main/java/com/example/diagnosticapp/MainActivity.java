@@ -112,11 +112,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        ImageView mainButton10 = (ImageView) findViewById(R.id.notification);
+        ImageView mainButton10 = (ImageView) findViewById(R.id.Apps);
         mainButton10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, NotificationActivity.class);
+                Intent intent = new Intent(MainActivity.this, AllAppsActivity.class);
                 startActivity(intent);
             }
         });
