@@ -74,7 +74,7 @@
             android:exported="true"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".SignalActivity"
+            android:name=".NetworkActivity"
             android:exported="true"
             android:parentActivityName=".MainActivity" />
         <activity
@@ -90,7 +90,7 @@
             android:exported="true"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".SecurityActivity"
+            android:name=".MemoryActivity"
             android:exported="true"
             android:parentActivityName=".MainActivity" />
         <activity

@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-anydpi/Memory.xml" value="0.147" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-anydpi/ic_camera.xml" value="0.2435" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-anydpi/ic_image.xml" value="0.2435" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/drawable-anydpi/ic_network.xml" value="0.2435" />
@@ -25,7 +26,7 @@
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_file_manager.xml" value="0.25" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_filemanager.xml" value="0.1609375" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_flash_light.xml" value="0.25" />
-        <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_main2.xml" value="0.2359375" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_mobile_info.xml" value="0.264" />
         <entry key="..\:/Users/Shaquib/Desktop/DiagnosticApp/app/src/main/res/layout/activity_notification.xml" value="0.1609375" />

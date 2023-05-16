@@ -24,11 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
         // declear 12 button to go another activiy by click on imageView usnig internt and onclick()
 
-        ImageView mainButton = (ImageView) findViewById(R.id.security);
+        ImageView mainButton = (ImageView) findViewById(R.id.Memory);
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SecurityActivity.class);
+                Intent intent = new Intent(MainActivity.this, MemoryActivity.class);
                 startActivity(intent);
             }
         });
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         mainButton5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SignalActivity.class);
+                Intent intent = new Intent(MainActivity.this, NetworkActivity.class);
                 startActivity(intent);
             }
         });

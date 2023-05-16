@@ -14,7 +14,7 @@ import android.telephony.SignalStrength;
 import android.telephony.TelephonyManager;
 import android.widget.TextView;
 
-public class SignalActivity extends AppCompatActivity {
+public class NetworkActivity extends AppCompatActivity {
 
     private TextView textView;
 
@@ -24,7 +24,7 @@ public class SignalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signal);
 
-        getSupportActionBar().setTitle("Signal");
+        getSupportActionBar().setTitle("Network");
 
 
         textView = findViewById(R.id.textView);
@@ -50,16 +50,14 @@ public class SignalActivity extends AppCompatActivity {
             // Get link speed
             int linkSpeed = getLinkSpeed();
 
-            // Get Wi-Fi standard
-            String wifiStandard = getWifiStandard();
+
 
             // Display the information
             textView.setText("Network Type: " + networkType +
                     "\nConnected: " + isConnected +
                     "\nIP Address: " + ipAddress +
                     "\nGateway: " + gateway +
-                    "\nLink Speed: " + linkSpeed + " Mbps" +
-                    "\nWi-Fi Standard: " + wifiStandard);
+                    "\nLink Speed: " + linkSpeed + " Mbps" );
         } else {
             textView.setText("No active network connection.");
         }
@@ -95,39 +93,6 @@ public class SignalActivity extends AppCompatActivity {
         return wifiInfo.getLinkSpeed();
     }
 
-    // Get the Wi-Fi standard
-    @RequiresApi(api = Build.VERSION_CODES.R)
-    private String getWifiStandard() {
-        WifiManager wifiManager = (WifiManager)
-                getApplicationContext().getSystemService(Context.WIFI_SERVICE);
-        WifiInfo wifiInfo = wifiManager.getConnectionInfo();
-        int wifiStandard = wifiInfo.getWifiStandard();
-        String standard;
-        switch (wifiStandard) {
-            case WifiInfo.WIFI_STANDARD_11A:
-                standard = "802.11a";
-                break;
-            case WifiInfo.WIFI_STANDARD_11B:
-                standard = "802.11b";
-                break;
-            case WifiInfo.WIFI_STANDARD_11G:
-                standard = "802.11g";
-                break;
-            case WifiInfo.WIFI_STANDARD_11N:
-                standard = "802.11n";
-                break;
-            case WifiInfo.WIFI_STANDARD_11AC:
-                standard = "802.11ac";
-                break;
-            case WifiInfo.WIFI_STANDARD_11AX:
-                standard = "802.11ax";
-                break;
-            default:
-                standard = "Unknown";
-                break;
-        }
-        return standard;
-    }
-
 
 }
+
