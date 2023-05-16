@@ -27,7 +27,7 @@ public class AllAppsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_notification);
 
 
-        getSupportActionBar().setTitle("Notifications");
+        getSupportActionBar().setTitle("All Apps");
 
         // initialise layout
         listView = findViewById(R.id.listview);
